@@ -1,4 +1,2 @@
-./ecommerce/sanity.cli.ts
-./ecommerce/sanity.config.ts
-/ecommerce/sanity.cli.ts
-/ecommerce/sanity.config.ts
+[build.ignore]
+  files = ["./ecommerce/sanity.cli.ts", "./ecommerce/sanity.config.ts"]
