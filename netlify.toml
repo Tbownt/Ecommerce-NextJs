@@ -1,2 +1,10 @@
+[build]
+  # Comando de construcción de tu proyecto Next.js
+  command = "npm run build"
+
+  # Directorio de despliegue
+  publish = "out"
+
+# Ignorar archivos durante el despliegue
 [build.ignore]
   files = ["./ecommerce/sanity.cli.ts", "./ecommerce/sanity.config.ts"]
